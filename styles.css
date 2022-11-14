@@ -1,0 +1,388 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #e4e6ee;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+p {
+  font-family: "Encode Sans Condensed", sans-serif;
+}
+
+main {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 10% 0px;
+}
+
+/* This is the first section*/
+.one {
+  height: 90%;
+  width: 25%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.one > * {
+  width: 100%;
+  height: 9rem;
+  margin-bottom: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* This is part of the first section*/
+.header {
+  background-image: linear-gradient(
+    to right,
+    #70aff7,
+    #65a3fd,
+    #6495ff,
+    #6d85ff,
+    #7e72ff,
+    #a766ef,
+    #c45adc,
+    #da4ec7,
+    #ee5dab,
+    #f37498,
+    #ef8c90,
+    #e5a395
+  );
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.header > * {
+  color: white;
+  margin: 0px;
+}
+
+.header > h3 {
+  font-size: 1rem;
+}
+
+.header > p {
+  font-size: 13px;
+  margin-top: 10px;
+}
+
+.tags {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.tags > * {
+  height: 25%;
+  width: 100%;
+  display: flex;
+}
+
+.tags > .first > * {
+  width: 25%;
+  height: 100%;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6ee;
+  border-radius: 7px;
+  color: #4561e5;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.first > :nth-child(1) {
+  background-color: #4561e5;
+  color: white;
+}
+
+.second > * {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6ee;
+  border-radius: 7px;
+  color: #4561e5;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.second > :nth-child(1) {
+  width: 60%;
+  margin-right: 10px;
+}
+.second > :nth-child(2) {
+  width: 25%;
+}
+
+.third > * {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e4e6ee;
+  border-radius: 7px;
+  color: #4561e5;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.roadmap {
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 15%;
+}
+
+.others {
+  height: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.view > * {
+  margin: 0px;
+}
+
+.others > div > * {
+  margin: 0px;
+}
+
+.others {
+  display: flex;
+  flex-direction: column;
+}
+
+.pearls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.group {
+  display: flex;
+  width: 40%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pearls > p {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.group > P {
+  font-size: 13px;
+  color: #aeafb5;
+}
+
+.group > * {
+  margin: 0px;
+}
+
+.red {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: red;
+}
+
+.green {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: green;
+}
+.blue {
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  background-color: blue;
+}
+
+.seggestion {
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: #373e68;
+  border-radius: 10px;
+}
+
+.sort {
+  width: 50%;
+  height: 100%;
+  display: flex;
+}
+
+.sort > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color: white;
+}
+
+.sort > div > h3 {
+  margin-left: 15px;
+}
+
+.sort > div > select {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.seggestion > button {
+  height: 100%;
+  width: 20%;
+  border: none;
+  outline: none;
+  background-color: #ad1ee8;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* End of  the first section*/
+
+/* This is the second section*/
+
+.two {
+  width: 75%;
+  padding: 10px;
+}
+
+.two > :nth-child(1) {
+  width: 100%;
+  height: 4.5rem;
+  margin-bottom: 20px;
+}
+
+.two > :nth-child(2) {
+  width: 100%;
+}
+
+.task {
+  width: 100%;
+  height: 9rem;
+  margin-bottom: 20px;
+  display: flex;
+  box-sizing: border-box;
+  padding: 25px;
+  justify-content: space-between;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.task > :nth-child(1) {
+  width: 5%;
+  height: 50%;
+  border-radius: 10px;
+  background-color: #e9ebfb;
+  color: #373e68;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.task > :nth-child(2) {
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+.num > span {
+  color: #373e68;
+  font-weight: 600;
+}
+
+.num > :nth-child(1) {
+  margin-bottom: -5px;
+}
+
+.content > * {
+  margin: 0px;
+}
+
+.content > h3 {
+  font-size: 1rem;
+}
+
+.content > p {
+  color: #cbd2ef;
+  font-size: 0.9rem;
+}
+.title {
+  color: #373e68;
+}
+
+.mini {
+  width: 20%;
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e9ebfb;
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: #4561e5;
+  cursor: pointer;
+}
+
+.mini > span {
+  font-size: 12px;
+}
+
+.task > :nth-child(3) {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.comment > :nth-child(1) {
+  margin-right: 5px;
+}
+
+.comment > span {
+  font-weight: 600;
+  color: #373e68;
+}
+
+/* This is the end of the second section*/
